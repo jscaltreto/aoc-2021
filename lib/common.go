@@ -40,3 +40,10 @@ func StrToInt(s string) int {
 	}
 	return i
 }
+
+func Abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
